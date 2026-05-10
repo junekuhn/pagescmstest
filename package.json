@@ -1,0 +1,28 @@
+{
+  "name": "pagescmstest",
+  "version": "1.0.0",
+  "description": "test ",
+  "main": "index.js",
+    "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^6.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junekuhn/pagescmstest.git"
+  },
+  "keywords": [
+    "blah"
+  ],
+  "author": "june kuhn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junekuhn/pagescmstest/issues"
+  },
+  "homepage": "https://github.com/junekuhn/pagescmstest#readme"
+}
