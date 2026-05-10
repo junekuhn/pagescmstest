@@ -1,6 +1,19 @@
 media:
-  input: src/media
-  output: /media
+  - name: images
+    label: Images
+    input: media/images
+    output: /media/images
+    rename: safe
+    extensions: [png, jpg, webp]
+    actions:
+      - name: optimize-images
+        label: Optimize images
+        workflow: pages-cms-media-action.yml
+  - name: docs
+    label: Documents
+    input: media/docs
+    output: /media/docs
+    categories: [document]
 content:
   - name: posts
     label: Posts
